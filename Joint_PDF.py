@@ -1,7 +1,5 @@
 """Script for plotting Joint Probability Density Function (JPDF)
-
 Source: Quadrant Analysis in Turbulence Research:History and Evolution By James M. Wallace
-
 JPDF of u_z and Temp_fluctuation.
 u_z is the vertical velocity
 T_prime = T- T_mean
@@ -25,7 +23,7 @@ def cart2pol(x, y, z):
 
 #%% USER INPUT
 
-total_points = 800    #total points from the history point
+total_points = 800    #total probes from the history file recorded
 probe_per_line = 40   #probe per line
 probe_1 = 0           #python starts from 0 so prob start from 0 tp 799, give the first probe number to +40
 num_probe = 8
